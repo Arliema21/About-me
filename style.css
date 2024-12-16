@@ -1,0 +1,135 @@
+body{
+    background-color: #ECDFCC;
+}
+
+p{
+    color: #23241e;
+}
+.home-page{ 
+   background-color: #697565;
+   border-radius: 20px;
+   display: grid;
+   justify-content: center;
+   color: #ECDFCC;
+   height: 500px;
+   
+}
+.home-page > h1{
+    font-size: 100px;
+    font-family:  "Carter One", system-ui;
+    margin-top: 150px;    
+}
+.home-page > h5{
+    display: flex;
+    justify-content: center;
+}
+
+
+#about{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+.profile{
+    display: flex;
+    justify-content: center; 
+    align-items: center; 
+}
+.profile > img{
+    width: 250px;
+    border-radius: 10px;
+}
+.about-me{
+    background-color:  #697565;
+    color: #ECDFCC;
+    border-radius: 30px;
+    display: flex;
+    justify-content: flex-start;
+}
+.who-am-i{
+    font-family: "Carter One", system-ui;
+    font-size: 50px;
+}
+
+span{
+    font-weight: bold;
+    font-style: italic;
+}
+
+#experience{
+    background-color: #697565;
+    border-radius: 20px;
+}
+.exp{
+    color: #ECDFCC;
+    font-family: "Carter One", system-ui;
+    font-size: 50px;
+}
+.exp-image{
+    border-radius: 20px;
+}
+.work{
+    font-family: "Domine", serif;
+    font-weight: bold;
+    color: #23241e;
+    font-size: 25px;
+}
+
+#skills-education{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+
+    
+}
+.skills{
+    background-color: #697565;
+    border-radius: 20px;
+    height: 220px;
+}
+.education{
+    background-color: #697565;
+    border-radius: 20px;
+}
+.skills > h2{
+    color: #ECDFCC;
+    font-family: "Carter One", system-ui;
+    font-size: 50px;
+}
+.education > h2{
+    color: #ECDFCC;
+    font-family: "Carter One", system-ui;
+    font-size: 50px;
+}
+.education > h3{
+    font-family: "Carter One", system-ui;
+    font-size: 25px;
+    margin: 15px 0 0 0;
+}
+
+#projects{
+    background-color: #697565;
+    border-radius: 20px;
+}
+.project-title{
+    color: #ECDFCC;
+    font-family: "Carter One", system-ui;
+    font-size: 50px;
+}
+.project-name{
+    font-family: "Carter One", system-ui; 
+}
+h3.Design{
+    font-size: 30px;
+}
+.project-image{
+    border: black solid 1px;
+    float: left;
+}
+#footer{
+    background-color: #697565;
+    border-radius: 20px;
+}
+.name{
+    font-size: 20px;
+    font-style: italic;
+}
+
